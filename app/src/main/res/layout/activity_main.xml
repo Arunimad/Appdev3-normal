@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delta.appdev3.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:hint="Enter id(1-721) :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit1"
+        android:text="Search"
+        android:layout_alignParentLeft="true"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_below="@+id/button1"/>
+
+
+
+
+
+
+         <ImageView
+
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/responseView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textColor="@android:color/holo_purple"
+            android:layout_below="@id/image1"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+
+            />
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_below="@+id/responseView"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space1">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+
+
+        <TableRow>
+
+
+
+
+        <TextView
+            android:id="@+id/tex1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Height                    :   "
+            android:textColor="@android:color/black"
+
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/textt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_orange_light"
+
+
+
+            />
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+
+
+
+
+            <TextView
+                android:id="@+id/tex2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Weight                   :   "
+                android:textColor="@android:color/black"
+
+                />
+
+
+
+
+
+
+
+            <TextView
+            android:id="@+id/textt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_orange_light"
+
+            />
+
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/tex3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Type                       :   "
+                android:textColor="@android:color/black"
+
+                />
+
+
+
+
+
+            <TextView
+            android:id="@+id/textt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_orange_light"
+
+            />
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+
+            <TextView
+                android:id="@+id/tex4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Ability                     :   "
+                android:textColor="@android:color/black"
+
+                />
+
+
+
+
+
+            <TextView
+            android:id="@+id/textt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_orange_light"
+
+            />
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/tex5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Experience             :   "
+                android:textColor="@android:color/black"
+
+                />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_orange_light"
+
+                />
+
+
+
+
+        </TableRow>
+
+        </TableLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>
